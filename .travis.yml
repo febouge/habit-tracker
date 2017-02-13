@@ -1,0 +1,13 @@
+# Linux config
+dist: trusty
+sudo: false
+
+# Language config
+language: node_js
+node_js:
+  - "6"
+  - "node"
+
+#Notifications config
+notifications:
+  email: false
