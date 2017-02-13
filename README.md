@@ -1,6 +1,8 @@
 # Habit Tracker
 This is intended to be the server part for a future web application to track your habits.
 
+[![Build Status](https://travis-ci.org/febouge/habit-tracker.svg?branch=master)](https://travis-ci.org/febouge/habit-tracker)
+
 ## Methodology
 I intend to use TDD and try to keep the things simple as much as possible.
 
