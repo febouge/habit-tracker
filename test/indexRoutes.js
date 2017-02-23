@@ -26,13 +26,13 @@ describe("indexroutes", function() {
     })
     .end(done);
   });
-  it("Title property has 'Index' value", function(done) {
+  it("Title property has 'Welcome' value", function(done) {
     request
     .expect(function(res){
       if (res.body === null){
         throw new Error("Response has an empty body");
       }
-      if (res.body.title !== 'Index'){
+      if (res.body.title !== 'Welcome'){
         throw new Error("The title property is not correct");
       }
     })

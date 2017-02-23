@@ -4,7 +4,8 @@ var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 var helmet = require('helmet');
-var index = require('./routes/index');
+const index = require('./routes/index');
+const habit = require('./routes/habit');
 
 var app = express();
 
@@ -17,6 +18,7 @@ app.use(helmet());
 
 // Router registry
 app.use('/', index);
+app.use('/habit', habit);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
