@@ -3,6 +3,9 @@ This is intended to be the server part for a future web application to track you
 
 [![Build Status](https://travis-ci.org/febouge/habit-tracker.svg?branch=master)](https://travis-ci.org/febouge/habit-tracker)
 
+[![build status](https://gitlab.com/febouge/habit-tracker/badges/master/build.svg)](https://gitlab.com/febouge/habit-tracker/commits/master)
+[![coverage report](https://gitlab.com/febouge/habit-tracker/badges/master/coverage.svg)](https://gitlab.com/febouge/habit-tracker/commits/master)
+
 ## Methodology
 I intend to use TDD and try to keep the things simple as much as possible.
 
